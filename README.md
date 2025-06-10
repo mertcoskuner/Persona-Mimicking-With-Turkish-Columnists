@@ -1,6 +1,52 @@
-# LLMs-Talking-Each-Other
+# 🧠 PERSONA-MIMICKING-WITH-TURKISH-COLUMNISTS
 
-Welcome to the **LLMs-Talking-Each-Other** project, developed as part of the ENS492 graduation project. This repository explores the  dynamics of communication between Large Language Models (LLMs) and demonstrates interactions both between LLMs and with users. 
+_Converse Like Columnists, Engage Like Never Before_
+
+![Last Commit](https://img.shields.io/badge/last_commit-today-brightgreen)
+![Python](https://img.shields.io/badge/python-98.8%25-blue)
+![Languages](https://img.shields.io/badge/languages-2-blue)
+
+## 🛠 Built with the tools and technologies:
+
+`JSON` `Markdown` `NumPy` `Python` `pandas`
+
+---
+
+## 📚 Table of Contents
+
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Project Objectives](#project-objectives)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Use Cases](#use-cases)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
+## 📝 Overview
+
+This repository is part of the ENS492 Graduation Project and aims to simulate rich and contextual dialogues between Large Language Models (LLMs) mimicking Turkish columnists. The goal is to explore the dynamics of AI communication both internally (LLM-to-LLM) and externally (User-to-LLM).
+
+---
+
+## 🚀 Getting Started
+
+### ✅ Prerequisites
+
+Make sure you have the following installed:
+
+- numpy==2.2.3
+- pandas==2.2.3
+- python-dateutil==2.9.0.post0
+- pytz==2025.1
+- six==1.17.0
+- tzdata==2025.1
+
+
 ## 📌 Project Objectives
 
 - Enable **LLM-to-LLM Communication**: Simulate dynamic and meaningful dialogues between multiple LLMs.
