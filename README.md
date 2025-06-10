@@ -22,8 +22,6 @@ _Converse Like Columnists, Engage Like Never Before_
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Use Cases](#use-cases)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
