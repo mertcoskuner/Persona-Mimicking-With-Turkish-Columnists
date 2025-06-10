@@ -1,14 +1,6 @@
 # 🧠 PERSONA-MIMICKING-WITH-TURKISH-COLUMNISTS
 
-_Converse Like Columnists, Engage Like Never Before_
-
 ![Last Commit](https://img.shields.io/badge/last_commit-today-brightgreen)
-![Python](https://img.shields.io/badge/python-98.8%25-blue)
-![Languages](https://img.shields.io/badge/languages-2-blue)
-
-## 🛠 Built with the tools and technologies:
-
-`JSON` `Markdown` `NumPy` `Python` `pandas`
 
 ---
 
