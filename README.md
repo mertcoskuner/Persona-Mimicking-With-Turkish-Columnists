@@ -2,28 +2,13 @@
 
 ![Last Commit](https://img.shields.io/badge/last_commit-today-brightgreen)
 
-## 📚 Table of Contents
-
-- [Overview](#overview)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Project Objectives](#project-objectives)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Use Cases](#use-cases)
-
----
-
 ## 📝 Overview
 
 This repository is part of the ENS492 Graduation Project and aims to simulate rich and contextual dialogues between Large Language Models (LLMs) mimicking Turkish columnists. The goal is to explore the dynamics of AI communication both internally (LLM-to-LLM) and externally (User-to-LLM).
 
 ---
 
-## 🚀 Getting Started
-
-### ✅ Prerequisites
+## ✅ Prerequisites
 
 Make sure you have the following installed:
 
