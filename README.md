@@ -2,8 +2,6 @@
 
 ![Last Commit](https://img.shields.io/badge/last_commit-today-brightgreen)
 
----
-
 ## 📚 Table of Contents
 
 - [Overview](#overview)
