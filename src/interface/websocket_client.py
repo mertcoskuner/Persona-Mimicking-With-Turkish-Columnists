@@ -4,7 +4,7 @@ import websockets
 import json
 
 async def test_websocket():
-    token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzI4MDUwNzE5LCJpYXQiOjE3MjgwNDcxMTksImp0aSI6ImJiNTNhYzQyNjY4ZjRmNGNiZTBiNGMyMmFlODgyN2RmIiwidXNlcl9pZCI6Mn0.-z9GnwZUtgplvd6O9dlStFKIMVlaqrnExpMC4qDDB5Q'  # Replace with your JWT access token
+    token = ''
     uri = f"ws://127.0.0.1:8001/ws/llm/Turkish%20llama%208b/?token={token}"
 
     async with websockets.connect(uri) as websocket:
