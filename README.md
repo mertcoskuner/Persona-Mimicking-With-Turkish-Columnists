@@ -1,51 +1,118 @@
-# 🧠 PERSONA-MIMICKING-WITH-TURKISH-COLUMNISTS
+# Turkish Columnist Persona System
 
-![Last Commit](https://img.shields.io/badge/last_commit-today-brightgreen)
+An AI-powered chat system that mimics the writing styles of Turkish columnists.
 
-## 📝 Overview
+## Features
 
-This repository is part of the ENS492 Graduation Project and aims to simulate rich and contextual dialogues between Large Language Models (LLMs) mimicking Turkish columnists. The goal is to explore the dynamics of AI communication both internally (LLM-to-LLM) and externally (User-to-LLM).
+- 🤖 AI models that mimic Turkish columnists' writing styles
+- 💬 Natural language processing for realistic chat experience
+- 🔒 Secure user authentication
+- 📱 Modern and user-friendly interface
+- 📊 Detailed performance analytics
 
----
+## Supported Columnists
 
-## ✅ Prerequisites
+- Barış Terkoğlu
+- Ahmet Hakan
+- Abdulkadir Selvi
 
-Make sure you have the following installed:
+## Technical Details
 
-- numpy==2.2.3
-- pandas==2.2.3
-- python-dateutil==2.9.0.post0
-- pytz==2025.1
-- six==1.17.0
-- tzdata==2025.1
+### Architecture
 
+```
+.
+├── backend/           # FastAPI-based backend
+├── frontend/         # Streamlit-based frontend
+├── models/           # Trained model files
+├── src/             # Source code
+├── tests/           # Test scenarios
+└── scripts/         # Helper scripts
+```
 
-## 📌 Project Objectives
+### Technology Stack
 
-- Enable **LLM-to-LLM Communication**: Simulate dynamic and meaningful dialogues between multiple LLMs.
-- Facilitate **User-to-LLM Interaction**: Allow users to interact with LLMs through text-based inputs.
-- Investigate LLM dynamics in various scenarios, including collaborative and competitive interactions.
-- Explore real-world applications of LLM dialogues in fields like education, entertainment, and AI research.
+- **Backend**: FastAPI, SQLAlchemy, JWT
+- **Frontend**: Streamlit, CSS
+- **ML/LLM**: Turkish-Llama-8b, BERT-Turkish
+- **Database**: PostgreSQL
+- **Cache**: Redis
+- **Vector DB**: Qdrant
 
-## 🚀 Features
+## Installation
 
-- **LLM-to-LLM Dialogues**: Simulate rich and structured conversations between multiple LLM instances.
-- **Persona-Based Communication**: Assign unique personas to LLMs for diverse and contextually tailored interactions.
-- **Customizable Prompts**: Set initial prompts for LLMs to guide and shape their dialogues.
-- **Interactive Backend**: Built with Flask or Django for scalable and efficient API services.
+For detailed installation steps, see [SETUP.md](SETUP.md).
 
-## 🛠️ Technologies Used
+```bash
+# Install required packages
+pip install -r requirements.txt
 
-- **Large Language Models**: Powered by cutting-edge LLMs (e.g., Meta-Llama, TURKCELL-LLM, YTU-Cosmos, Gemma-2).
-- **Backend**: Flask/Django for API and model serving.
-- **Frontend**: Streamlit UI for enhanced user engagement.
+# Start backend
+cd backend
+python manage.py runserver
 
-## 💡 Use Cases
+# Start frontend
+cd frontend
+streamlit run app.py
+```
 
-- AI-powered social platforms with engaging dialogues.
-- Virtual assistants capable of dynamic, multi-agent communication.
-- Simulation tools for dialogue research and analysis.
-- Educational tools for AI-driven learning experiences.
+## Usage
+
+1. Log in to the system
+2. Select your desired columnist
+3. Start chatting
+
+## API Documentation
+
+For API endpoints and usage, see [API Documentation](docs/api/README.md).
+
+## Development
+
+### Code Standards
+
+- PEP 8 compliant Python code
+- Type hints usage
+- Docstring format
+- Test coverage target: 80%
+
+### Testing
+
+```bash
+# Run all tests
+pytest
+
+# Run specific test groups
+pytest tests/unit/
+pytest tests/integration/
+pytest tests/e2e/
+```
+
+### Deployment
+
+For detailed deployment steps, see [Deployment Guide](docs/deployment/README.md).
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'feat: add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+- Project Manager: [Name Surname](mailto:email@example.com)
+- Technical Support: [support@persona-system.com](mailto:support@persona-system.com)
+
+## Acknowledgments
+
+- [Hugging Face](https://huggingface.co/) - Model infrastructure
+- [FastAPI](https://fastapi.tiangolo.com/) - Backend framework
+- [Streamlit](https://streamlit.io/) - Frontend framework
 
 
 
